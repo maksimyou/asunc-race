@@ -1,0 +1,297 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('./fonts/icomoon.eot');
+  src:  url('./fonts/icomoon.eot') format('embedded-opentype'),
+    url('./fonts/icomoon.ttf') format('truetype'),
+    url('./fonts/icomoon.woff') format('woff'),
+    url('./fonts/icomoon.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-1299198:before {
+  content: "\e900";
+  font-size: 45px;
+}
+.icon-1299198 {
+  position: absolute;
+  top: 0px;
+}
+
+.wins{
+  position: relative;
+}
+.wins:before{
+  font-size: 25px;
+}
+/*------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+body{
+  background:  black;
+  max-width: 1920px;
+  margin: 0 auto;
+  padding: 40px;
+}
+.custom-btn {
+  font-size: 9px;
+  width: 80px;
+  height: 20px;
+  color: #fff;
+  border-radius: 5px;
+  /*padding: 10px 25px;*/
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+   box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+   7px 7px 20px 0px rgba(0,0,0,.1),
+   4px 4px 5px 0px rgba(0,0,0,.1);
+  outline: none;
+}
+
+
+.custom-btn:disabled{
+  box-shadow:none;
+}
+
+
+.btn-2 {
+  background: rgb(96,9,240);
+  background: linear-gradient(0deg, rgba(96,9,240,1) 0%, rgba(129,5,240,1) 100%);
+  border: none;
+  
+}
+.btn-2 :disabled{
+  border: none;
+  cursor: auto;
+}
+.btn-2:before {
+  height: 0%;
+  width: 2px;
+}
+.btn-2:hover {
+  box-shadow:  4px 4px 6px 0 rgba(255,255,255,.5),
+              -4px -4px 6px 0 rgba(116, 125, 136, .5), 
+    inset -4px -4px 6px 0 rgba(255,255,255,.2),
+    inset 4px 4px 6px 0 rgba(0, 0, 0, .4);
+}
+.btn-2:hover:disabled {
+  box-shadow: none;
+  cursor: auto;
+}
+.btn-3 {
+  background: rgb(240 32 9);
+  background: linear-gradient(0deg, rgb(240 32 9) 0%, rgb(240 142 5) 100%);
+  border: none;
+  
+}
+.btn-3:before {
+  height: 0%;
+  width: 2px;
+}
+
+.btn-3:hover {
+  box-shadow:  4px 4px 6px 0 rgba(255,255,255,.5),
+              -4px -4px 6px 0 rgba(116, 125, 136, .5), 
+    inset -4px -4px 6px 0 rgba(255,255,255,.2),
+    inset 4px 4px 6px 0 rgba(0, 0, 0, .4);
+}
+
+.btn-management{
+  text-align: center;
+  width: 15px;
+  color: rgb(192, 34, 34);
+  border: 1px solid rgb(192, 34, 34);
+  border-radius: 5px;
+  padding: 3px 5px;
+}
+
+.btn-management-active{
+  text-align: center;
+  width: 15px;
+  color: rgb(56, 201, 70);
+  border: 1px solid rgb(37, 200, 53);
+  border-radius: 5px;
+  padding: 3px 5px;
+}
+
+.create-road-cars-block1{
+  padding-bottom: 15px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.create-road-cars-block2{
+  display: flex;
+  gap: 5px;
+}
+.create-road-cars-block2 div{
+  cursor: pointer;
+}
+.create-road-cars-block3{
+  padding-bottom: 15px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  position: relative;
+  height: 78px;
+}
+
+.name-car{
+  margin-left: 15px;
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.set-the-quantity {
+  font-size: 20px;
+  font-weight: 500;
+  padding-bottom: 10px;
+  color: white;
+}
+
+
+.set-the-pages{
+  font-size: 16px;
+  font-weight: 400;
+  padding-bottom: 25px;
+  color: white;
+}
+
+.garage-creation-and-editing-panel-block1{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding-bottom: 5px;
+}
+
+.garage-creation-and-editing-panel-block2{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding-bottom: 15px;
+}
+
+.garage-creation-and-editing-panel-block3{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding-bottom: 75px;
+}
+.input-name{
+  border-radius: 3px;
+  width: 200px;
+}
+
+.input-rename{
+  border-radius: 3px;
+  width: 200px;
+}
+.img-flag{
+  position: absolute;
+  top: -28px;
+  right: 12.8%;
+  z-index: 100;
+}
+
+
+.road-line{
+  font-weight: 900;
+  font-size: 20px;
+  white-space: nowrap;
+  color: white;
+  overflow: hidden;
+}
+.switch-panel{
+display: flex;
+gap: 5px;
+padding-bottom: 10px;
+}
+
+
+.prev-next{
+display:  flex;
+gap: 5px;
+}
+
+
+.prev:disabled{
+  background: #999;
+  cursor:auto;
+  box-shadow: none;
+}
+.prev:disabled:hover{
+  box-shadow: none;
+}
+
+.next:disabled{
+  background: #999;
+  cursor:auto;
+  box-shadow: none;
+}
+.next:disabled:hover{
+  box-shadow: none;
+}
+
+
+.drive-car{
+  animation-name: go-left-right;
+  /*animation-duration: .4s;*/
+  animation-timing-function: linear;
+}
+@keyframes go-left-right {        /* объявляем имя анимации: "go-left-right" */
+  from { left: 0px; }             /* от: left: 0px */
+  to { left: 85%; } /* до: left: 100%-50px */
+}
+
+
+.gener-header-title-group{
+  display: grid;
+  color: #fff;
+  /*justify-content: space-between;*/
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  gap: 10px;
+  width: 100%;
+  border: 1px solid gold;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+
+.list-result{
+  color: aqua;
+  display: grid;
+  /*justify-content: space-between;*/
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  gap: 10px;
+  width: 100%;
+  border-bottom: 1px solid rgb(66, 117, 189);
+  padding: 5px;
+  align-items: center;
+}
